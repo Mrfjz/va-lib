@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import find_packages, setup
 
 setup(
-    name="Python template",
-    version="0.0.0",
-    description="Python Template",
-    packages=["python_template"],
+    name="va-lib",
+    description="A Python library for video analytics",
+    packages=find_packages(),
 )

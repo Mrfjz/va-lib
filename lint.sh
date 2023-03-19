@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-PACKAGE_NAME=python_template
+PACKAGE_NAME=va_lib
 # Check style error and static type
 # PEP8 checker
 pylint $PACKAGE_NAME
